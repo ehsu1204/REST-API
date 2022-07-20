@@ -7,7 +7,7 @@ dotenv.config();
 //importing routes
 const routes = require("./middleware/routes");
 
-//puts requests into req.body
+//Parses incoming JSON requests to req.body
 app.use(express.json());
 
 //configures the middleware in routes
